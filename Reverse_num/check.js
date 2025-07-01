@@ -11,7 +11,7 @@ function check()
         num = Math.floor(num/10);
     }
     
-    document.getElementById("output").innerHTML = "real Number is : "+ input + "<br>reversed number is : " + result;
+    document.getElementById("output").innerHTML ="reversed number is : " + result;
 
 }
   
