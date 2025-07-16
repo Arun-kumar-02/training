@@ -1,0 +1,13 @@
+const str = "abcd";
+const str1 = "cdab"
+const len = str.length;
+
+for(let i=0; i<len; i++)
+{
+    let substr = str.slice(1, len);
+    substr+= str[0];
+    str = substr;
+
+    if(str === str1) return console.log(true);
+}
+return console.log(false);
