@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>counter button</button>
+    <h5 id="result">Click count :</h5>
+
+    <script>
+        let count =0;
+        
+        document.addEventListener("click" , () =>{
+            count++;
+            document.getElementById("result").innerText = "Click count : " + count;
+        });
+
+    </script>
+</body>
+</html>
